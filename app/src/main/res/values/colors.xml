@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColorPrimaryLight">#E1BEE7</color>
+    <color name="colorPrimary">#9b19b1</color>
+    <color name="colorPrimaryDark">#7B1FA2</color>
+    <color name="colorAccent">#CDDC39</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="colorBackground">#F3E5F5</color>
+
+    <!-- Background color for GenreActivity category -->
+    <color name="category_genre">#757575</color>
+
+    <!-- Background color for the title category -->
+    <color name="category_title">#16AFCA</color>
+
+    <!-- Background color for the text in music play -->
+    <color name="text_musicplay">#FFFFFF</color>
+</resources>

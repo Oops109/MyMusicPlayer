@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/music_background"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        style="@style/singleImageViewStyle"
+        android:gravity="center_horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:id="@+id/image_record"
+        android:src="@drawable/vinyl_record"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            style="@style/TextStyle"
+            android:id="@+id/genre_text"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:textColor="@color/text_musicplay"
+            tools:text="Blues"/>
+
+        <TextView
+            style="@style/TextStyle"
+            android:id="@+id/record_text"
+            android:textColor="@color/text_musicplay"
+            tools:text="Time Out"/>
+
+            <TextView
+                style="@style/TextStyle"
+                android:id="@+id/artist_text"
+                android:textColor="@color/text_musicplay"
+                tools:text="Dave Brubeck"/>
+
+            <TextView
+                style="@style/TextStyle"
+                android:id="@+id/title_text"
+                android:textColor="@color/text_musicplay"
+                tools:text="Take Five"/>
+
+    </LinearLayout>
+</LinearLayout>
