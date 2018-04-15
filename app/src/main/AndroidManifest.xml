@@ -6,7 +6,6 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -17,11 +16,23 @@
             </intent-filter>
         </activity>
         <activity android:name=".GenreActivity"
-            android:label="Genre" />
+            android:label="Genre"
+            android:parentActivityName="com.example.android.mymusicplayer.MainActivity" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.mymusicplayer.MainActivity" />
         <activity android:name=".TitleActivity"
-            android:label="Title" />
+            android:label="Title"
+            android:parentActivityName=".MainActivity" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.mymusicplayer.MainActivity" />
         <activity android:name=".MusicPlay"
-            android:label="Music Play" >
+            android:label="Music Play"
+            android:parentActivityName=".TitleActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.mymusicplayer.TitleActivity" />
         </activity>
     </application>
 

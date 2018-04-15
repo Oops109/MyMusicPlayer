@@ -26,6 +26,9 @@ public class TitleActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        android.support.v7.app.ActionBar actionBar =getSupportActionBar();
+        assert actionBar != null;
+        actionBar.setDisplayHomeAsUpEnabled(true);
         setContentView(R.layout.song_list);
 
         final ArrayList<Music> musicArrayList = new ArrayList<Music>();

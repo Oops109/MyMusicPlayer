@@ -5,4 +5,7 @@
 
     <!-- Category name for the title [CHAR LIMIT=20] -->
     <string name="category_title">Title</string>
+
+    <!-- Menu settings -->
+    <string name="action_settings">settings</string>
 </resources>
